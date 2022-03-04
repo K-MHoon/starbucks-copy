@@ -167,7 +167,7 @@ header .sub-menu ul.menu li:first-child::before {
 }
 
 header .sub-menu ul.menu li a{
-  font-size: 12px;
+  font-size: 13px;
   padding: 11px 16px;
   display: block;
   color: #656565;
@@ -183,7 +183,7 @@ header .sub-menu .search {
 
 header .sub-menu .search input {
   width: 36px;
-  height: 34px;
+  height: inherit;
   padding: 4px 10px;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -220,10 +220,6 @@ header .main-menu {
   right: 0px;
   z-index: 1;
   display: flex;
-}
-
-header .main-menu .item {
-
 }
 
 header .main-menu .item .item__name {
@@ -287,7 +283,7 @@ header .main-menu .item .item__contents .contents__texture {
 
 header .main-menu .item .item__contents .contents__texture h4{
   color: #999;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 header .main-menu .item .item__contents .contents__texture p {
@@ -311,7 +307,7 @@ header .badges .badge {
 
 /* VISAL */
 .visual {
-  margin-top: 120px;
+  margin-top: 100px;
   background-image: url("../images/visual_bg.jpg");
   background-position: center;
 }
@@ -367,10 +363,6 @@ header .badges .badge {
 }
 
 /* NOTICE */
-.notice {
-
-}
-
 .notice .notice-line {
   position: relative;
 }
